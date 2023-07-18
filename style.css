@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body {
+  background-color: #c8c7ff;
+  margin: 0 auto;
+}
+
+.big-card {
+  width: 1015px;
+  height: 658px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 100px auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+
+
+}
+
+.right-card {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  background-color: blue;
+  width: 494px;
+  height: 658px;
+  border-radius: 52px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.header {
+  font-size: 42px;
+  text-align: center;
+  position: absolute;
+  top: 36px;
+}
+.circle {
+  width: 252px;
+  height: 252px;
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.num1 {
+  font-size: 107px;
+  font-weight: 700;
+}
+.num2 {
+  font-size: 27px;
+  color: #ffffffa0;
+}
+.bottom {
+  margin-top: 26px;
+    max-width: 368px;
+}
+article{
+    background-color: white;
+
+}
+h2{
+    font-size: 30px;
+    margin: 20px 0 0 40px;
+}
+.shape{
+width:437px ;
+background-color: #fff;
+height: 86px;
+margin-top: 10px;
+border-radius: 23px;
+display: flex;
+flex-direction: row;
+
+align-items: center;
+justify-content: space-between;
+
+}
+.text1{
+font-size: 25px;
+position: relative;
+top: -3px;
+
+}
+.fr{
+background-color:#ff575788;
+color: red;
+display: flex;
+align-items: center;
+}
+  .se{
+  background-color:  hsla(39, 100%, 56%, 0.533);
+color: yellow;
+
+}
+.th{
+background-color: hsla(166, 100%, 37%, 0.507); 
+color: green;
+
+}
+.fo{
+background-color: hsla(234, 85%, 45%, 0.448);
+color: blue;
+
+}
+.rate{
+  color: black;
+position: relative  ;
+  right: 20px;
+font-size: 30px;
+font-weight: 700;
+
+}
+
+.tex2{
+font-size: 20px;
+margin-bottom: 15px;
+}
+ svg{
+width: 43px;
+height: 43px;
+position: relative;
+top: 5px;
+left: 5px;
+}
+button{
+  position: relative ;
+  left:45px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 30px;
+color: white;
+  margin-top: 70px;
+  width: 407px;
+  height: 114px;
+  border-radius:114px ;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 88%, 50%));
+}
+button:hover{
+  background-color: blue;
+}
+.attribution{
+margin: 0 auto;
+text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+body{
+background-color: #fff;
+}
+.header{
+  font-size: 30px;
+}
+.big-card{
+  display: grid ;
+  grid-template-columns: 1fr;
+  align-items: center !important;
+  
+}
+
+
+  .right-card{
+    margin: 0 auto important;
+  width: 379px;
+  height: 458px;
+}
+.circle{
+width: 163px;
+height: 163px;
+
+}
+.num1{
+  font-size: 30px;
+
+}
+.num2{
+  font-size: 18px;
+}
+.shape{
+  width: 300px;
+  height:45px;
+  position: relative ;
+  left: 50px;
+}
+.text1,.rate, h2{
+  font-size: 16px;
+
+}
+svg{
+width: 20px;
+height: 36px;
+
+}
+button{
+  width: 334px;
+  height: 49px;
+  background-color: #303B59 important;
+  text-align: center;
+}
+.attribution{
+text-align: center;
+  position: relative;
+bottom: -200px;
+}
+a:hover{
+  text-decoration: none;
+}
+}
